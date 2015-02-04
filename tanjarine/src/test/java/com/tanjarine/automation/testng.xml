@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PARALLEL tests execution mode!!!!-->
+<!--<suite name="Main Test Suite" verbose="2" parallel="tests" thread-count="5">-->
+<suite name="Main Test Suite" verbose="2" parallel="tests" thread-count="8">
+
+    <test name="Suite1">
+        <classes>
+
+            <class name="com.tanjarine.automation.testcases.LoginPageTest"/>
+
+            <!--<class name="com.tanjarine.automation.testcases.ModifiersTest"/>-->
+
+        </classes>
+    </test>
+    <test name="Suite2">
+        <classes>
+
+            <class name="com.tanjarine.automation.testcases.VenueManagementTest"/>
+
+        </classes>
+    </test>
+
+    <test name="Suite3">
+        <classes>
+
+            <class name="com.tanjarine.automation.testcases.GameManagementTest"/>
+
+        </classes>
+    </test>
+
+    <test name="Suite4">
+        <classes>
+
+            <class name="com.tanjarine.automation.testcases.AdminHomePageTest"/>
+            <class name="com.tanjarine.automation.testcases.ApkRegisterTest"/>
+
+        </classes>
+    </test>
+
+    <test name="Suite5">
+        <classes>
+
+            <class name="com.tanjarine.automation.testcases.PromotionsPageTest"/>
+
+            <!--commented   01 12 2014 for debuggin purposes   -->
+            <!--<class name="com.tanjarine.automation.testcases.SetupFullVenueTest"/>-->
+        </classes>
+    </test>
+
+    <!--<test name="Suite6">
+        <classes>
+
+
+            <class name="com.tanjarine.automation.testcases.Menu30Test"/>
+
+
+        </classes>
+    </test>
+-->
+
+    <!--<test name="Suite6">
+        <classes>
+
+        </classes>
+    </test>-->
+
+</suite>
